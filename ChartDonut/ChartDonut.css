@@ -21,3 +21,7 @@ body {
     stroke-width: 35;
     fill: none;
   }
+  
+  svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+  }
