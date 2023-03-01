@@ -14,3 +14,10 @@ body {
     --dash: 628; /* Circumference (2 * pi * radius)*/
     --percentage: 75; /* Demonstrated progress */
   }
+  
+  svg circle {
+    stroke-dasharray: var(--dash);
+    stroke-dashoffset: var(--dash);
+    stroke-width: 35;
+    fill: none;
+  }
