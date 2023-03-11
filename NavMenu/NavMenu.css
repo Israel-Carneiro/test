@@ -23,3 +23,17 @@ a {
     font-size: 2rem;
     font-weight: bold;
 }
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-link {
+    transform: 0.5s ease;
+}
+
+.nav-link:hover {
+    color: blue;
+}
