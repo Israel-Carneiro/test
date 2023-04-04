@@ -8,3 +8,12 @@
 .card {
     min-width: 18rem;
 }
+
+.card__top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(25,25,25,1) 50%, rgba(69,69,69,1) 50%);
+    border-radius: 2rem 2rem 0 0;
+    height: 9rem;
+}
