@@ -45,3 +45,7 @@
     justify-content: start;
     font-size: 1.5rem;
 }
+
+.card__status {
+    width: 50%;
+}
