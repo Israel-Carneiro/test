@@ -23,3 +23,14 @@
     border: 2px solid #fff;
     border-radius: 4rem;
 }
+
+.card__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #191919;
+    color: #fff;
+    border-radius: 0 0 2rem 2rem;
+    height: 18rem;
+    padding: 0 2rem 2rem 2rem;
+}
