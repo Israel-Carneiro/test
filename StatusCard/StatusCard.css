@@ -4,3 +4,7 @@
     justify-content: space-evenly;
     margin: 20vh 5vw;
 }
+
+.card {
+    min-width: 18rem;
+}
