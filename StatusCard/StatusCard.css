@@ -17,3 +17,9 @@
     border-radius: 2rem 2rem 0 0;
     height: 9rem;
 }
+
+.card__top img {
+    height: 6rem;
+    border: 2px solid #fff;
+    border-radius: 4rem;
+}
