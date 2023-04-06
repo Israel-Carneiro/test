@@ -23,3 +23,8 @@ main {
     width: inherit;
     height: inherit;
 }
+
+#photo .front {
+    background: url(./photo/IsraelCarneiro2.jpg) no-repeat;
+    background-size: cover;
+}
