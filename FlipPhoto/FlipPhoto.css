@@ -6,3 +6,9 @@ body {
 main {
     text-align: center;
 }
+
+.title {
+    font-size: 2rem;
+    color: #fff;
+    margin: 2rem;
+}
