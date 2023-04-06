@@ -28,3 +28,8 @@ main {
     background: url(./photo/IsraelCarneiro2.jpg) no-repeat;
     background-size: cover;
 }
+
+#photo .back {
+    background: url(./photo/IsraelCarneiro1.jpg) no-repeat;
+    background-size: cover;
+}
