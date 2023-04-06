@@ -17,19 +17,28 @@ main {
     width: 15rem;
     height: 20rem;
     margin: auto;
+
+    perspective: 60rem;
 }
 
 #photo > div {
     width: inherit;
     height: inherit;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 #photo .front {
     background: url(./photo/IsraelCarneiro2.jpg) no-repeat;
     background-size: cover;
+    transform: rotateY(0);
 }
 
 #photo .back {
     background: url(./photo/IsraelCarneiro1.jpg) no-repeat;
     background-size: cover;
+    transform: rotateY(-180deg);
 }
